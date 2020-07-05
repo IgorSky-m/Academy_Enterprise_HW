@@ -1,0 +1,9 @@
+
+U	java:S1060"9Replace this use of System.out or System.err by a logger.(İº÷Å8€îÊ¦±.
+Z	java:S1066"9Replace this use of System.out or System.err by a logger.(«¸•Äûÿÿÿÿ8Á¨ì¤±.
+Z	java:S106>"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿ8»Ù×¦±.
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(ô½Ûâ8ÒË¦±.
+
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ÙÀ¬‚ûÿÿÿÿ8ÕœÅ¢±.
+L
+java:S1068"*Remove this unused "logger" private field.(ø¢Á®øÿÿÿÿ8 É¡±.
