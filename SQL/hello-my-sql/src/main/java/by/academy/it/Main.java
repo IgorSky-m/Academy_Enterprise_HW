@@ -1,69 +1,47 @@
 package by.academy.it;
 
-import by.academy.it.utill.Expenses;
-import java.sql.*;
-import java.util.Properties;
-import java.util.Random;
+
+
+import java.sql.Date;
+import java.sql.SQLException;
 import java.util.logging.Level;
-import java.util.logging.LogRecord;
 import java.util.logging.Logger;
 
 public class Main {
+    private static final Logger logger = Logger.getLogger(Main.class.getName());
 
     public static void main(String[] args) {
-        Logger logger = Logger.getLogger("log");
-        Random random = new Random();
         try {
+            IClientDao clientDao = ClientDaoFactory.getClientDao("mysql");
+            int id = clientDao.getLastId();
+            id ++;
+            System.out.println(id);
+            ClientDto client = new ClientDto();
+            client.setId(id);
+            client.setName("Igro");
+            client.setSecondName("Skachko");
+            client.setEmail("scarydisco@gmail.com");
+            client.setDateOfBirth(Date.valueOf("1991-04-17"));
+            client.setGender('m');
+            logger.log(Level.INFO,"Created: "+client.getName());
+            clientDao.create(client);
+            ClientDto clientRead = clientDao.read(id);
+            logger.log(Level.INFO,"Readed: "+clientRead.getName());
+            clientRead.setName("vasiliypup");
+            clientRead.setGender('F');
+            clientDao.update(clientRead);
+            ClientDto clientUpdate = clientDao.read(id);
+            logger.log(Level.INFO,"Updated: "+clientUpdate.getName());
+            clientDao.delete(id);
+            logger.log(Level.INFO,"Deleted: "+clientDao.read(id).getName());
 
-            Class.forName("com.mysql.jdbc.Driver");
-            Properties properties = new Properties();
-            properties.put("user","root");
-            properties.put("password","root");
-            properties.put("useSSL","false");
-            properties.put("serverTimezone","UTC");
-            properties.put("charset","UTF8");
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/listexpenses",properties);
-            logger.log(new LogRecord(Level.INFO,"MySQL connection: "+ !connection.isClosed()));
-            Statement statement = connection.createStatement();
-            Expenses.addRandomExpense(statement,1);
-
-
-//            int length= GenerateLists.getListEngNamesLength()/2;
-//            int counter = 1;
-//            for (String s : GenerateLists.getEngNamesList()) {
-//                counter++;
-//                if ((counter/2) !=0) {
-//                    statement.execute("insert into receivers values (" +
-//                            counter + ",'" +
-//                            s + "')");
-//                }
-//            }
-
-
-
-
-
-        } catch (ClassNotFoundException | SQLException e) {
-            logger.log(new LogRecord(Level.WARNING,e.getMessage()));
-            e.printStackTrace();
-        } finally {
-            logger.log(new LogRecord(Level.INFO,"finish"));
+        } catch (SQLException throwables) {
+            logger.log(Level.SEVERE,throwables.getMessage(),throwables);
+            System.exit(-1);
+        }finally {
+            logger.info("Finished successfully");
+            System.exit(0);
         }
-
     }
+
 }
-//            for (int i = 1; i <= 5; i++) {
-//                Student student = GenerateLists.generateRandomStudent();
-//                System.out.println(student.toString());
-//                statement.execute("insert into studenttable(ID,studentName,studentSurname,age,gender,course,specialization) " +
-//                        "values (" +
-//                        i+",'"+
-//                        student.getName()+"','"+
-//                        student.getSurname()+"',"+
-//                        student.getAge()+",'"+
-//                        student.getGender()+"',"+
-//                        student.getCourse()+",'"+
-//                        student.getSpecialization()+"')"
-//                );
-//
-//            }
