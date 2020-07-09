@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d2042d4-6a2e-4d72-9b32-5ba4e2ce73f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../hello-my-sql/src/main/resources/NameFemale.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hello-my-sql/src/main/resources/NameMale.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hello-my-sql/src/main/resources/Surname.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hello-my-sql/src/main/resources/specializations.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.7-testWebApp-servlet-jsp/testWebApp/src/main/java/servlets/login/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../1.7-testWebApp-servlet-jsp/testWebApp/src/main/java/servlets/login/LoginServlet.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../java/maven/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eBFMNSexf4XHD2j5JPIJcEku43" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../1.7-testWebApp-servlet-jsp/testWebApp" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3908046" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\study\part-1\1.7-testWebApp\testWebApp\src\main\java\servlets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\study\part-1\1.7-testWebApp\testWebApp\src\main\webapp\files" />
+      <recent name="C:\work\study\part-1\1.7-testWebApp\testWebApp\src\main\resources\test-files" />
+      <recent name="C:\work\study\part-1\1.7-testWebApp\testWebApp\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="servlets.Test" />
+      <module name="testWebApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="servlets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="adminPort" value="8005" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="contextPath" value="/testWebApp" />
+      <option name="docBase" value="C:\work\study\part-1\1.7-testWebApp\testWebApp\src\main\webapp" />
+      <option name="envOptions" />
+      <option name="moduleName" value="testWebApp" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8080" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat 10.0.0-M6" />
+          <option name="number" value="0" />
+          <option name="path" value="C:\java\tomcat\apache-tomcat-10.0.0-M6" />
+          <option name="version" value="10.0.0.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d2042d4-6a2e-4d72-9b32-5ba4e2ce73f0" name="Default Changelist" comment="" />
+      <created>1593787030211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593787030211</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="261" y="0" key="#Project_Structure" timestamp="1593789594324">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1593789594324" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593862990340">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593862990340" />
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1593950501195">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593950501195" />
+    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593844958708">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1593844958708" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1594049099719">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594049099719" />
+    <state width="1478" height="212" key="GridCell.Tab.0.bottom" timestamp="1593984830137">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593984830137" />
+    <state width="1478" height="212" key="GridCell.Tab.0.center" timestamp="1593984830137">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593984830137" />
+    <state width="1478" height="212" key="GridCell.Tab.0.left" timestamp="1593984830137">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593984830137" />
+    <state width="1478" height="212" key="GridCell.Tab.0.right" timestamp="1593984830137">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593984830137" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1593938349179">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593938349179" />
+    <state x="209" y="96" key="new project wizard" timestamp="1593932891567">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="96" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1593932891567" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593959441460">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593959441460" />
+  </component>
+</project>

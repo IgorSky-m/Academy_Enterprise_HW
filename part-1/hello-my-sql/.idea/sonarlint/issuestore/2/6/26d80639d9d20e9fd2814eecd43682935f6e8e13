@@ -1,0 +1,29 @@
+
+“
+java:S1130G"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(ŒÐªùÿÿÿÿ
+P
+java:S2209a"5Change this instance-reference to a static reference.(±«Ôàûÿÿÿÿ
+>
+java:S1125"(Remove the literal "true" boolean value.(À„Üý
+P
+java:S2209Y"5Change this instance-reference to a static reference.(ÝûÍ›ÿÿÿÿÿ
+P
+java:S2209]"5Change this instance-reference to a static reference.(å¶ÎÞüÿÿÿÿ
+>
+java:S1125""(Remove the literal "true" boolean value.(´ÿÀØ
+C
+java:S1125)"(Remove the literal "true" boolean value.(¥ôáõùÿÿÿÿ
+>
+java:S11251"(Remove the literal "true" boolean value.(»­üþ
+Q
+java:S2696]"6Make the enclosing method "static" or remove this set.(å¶ÎÞüÿÿÿÿ
+P
+java:S2209U"5Change this instance-reference to a static reference.(Ùõ‰œýÿÿÿÿ
+Q
+java:S2696Y"6Make the enclosing method "static" or remove this set.(ÝûÍ›ÿÿÿÿÿ
+C
+java:S1125I"(Remove the literal "true" boolean value.(Š²ºîúÿÿÿÿ
+Q
+java:S2696U"6Make the enclosing method "static" or remove this set.(Ùõ‰œýÿÿÿÿ
+Q
+java:S2696a"6Make the enclosing method "static" or remove this set.(±«Ôàûÿÿÿÿ
