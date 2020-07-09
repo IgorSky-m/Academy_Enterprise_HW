@@ -89,7 +89,7 @@ public class ClientDaoImpl implements IClientDao {
     @Override
     public void update(ClientDto clientDto) {
         try (PreparedStatement preparedStatement = connection.prepareStatement("UPDATE client.clients " +
-                "set name = ?, second_name = ?, email = ?, dateofbirth = ?, gender = ? WHERE id = ?"))
+                "set name = ?, second_name = ?, email = ?, date_of_birth = ?, gender = ? WHERE id = ?"))
         {
             preparedStatement.setString(1,clientDto.getName());
             preparedStatement.setString(2,clientDto.getSecondName());
@@ -99,7 +99,7 @@ public class ClientDaoImpl implements IClientDao {
             preparedStatement.setInt(6,clientDto.getId());
 
             boolean result = preparedStatement.execute();
-            if (!(result)) logger.log(Level.SEVERE,clientDto.getId()+" can't updated");
+            if (result) logger.log(Level.SEVERE,clientDto.getId()+" can't updated");
 
         }catch (SQLException e) {
             logger.log(Level.SEVERE,e.getMessage(),e);
@@ -113,7 +113,7 @@ public class ClientDaoImpl implements IClientDao {
             preparedStatement.setInt(1,clientDto.getId());
 
             boolean result = preparedStatement.execute();
-            if (!(result)) logger.log(Level.SEVERE,clientDto.getId()+" can't updated");
+            if (result) logger.log(Level.SEVERE,clientDto.getId()+" can't updated");
 
             return result;
         }catch (SQLException e) {
@@ -130,11 +130,23 @@ public class ClientDaoImpl implements IClientDao {
             preparedStatement.setInt(1,clientDto.getId());
 
             boolean result = preparedStatement.execute();
-            if (!(result)) logger.log(Level.SEVERE,"client (ID: "+clientDto.getId()+") can't deleted");
+            if (result) logger.log(Level.SEVERE,clientDto.getId()+" can't deleted");
             return result;
         }catch (SQLException e) {
             logger.log(Level.SEVERE,e.getMessage(),e);
         }
         return false;
+    }
+
+
+    public int getLastId() {
+        try (ResultSet resultSet = connection.createStatement().executeQuery("SELECT MAX(id) FROM client.clients")){
+            while (resultSet.next()) {
+                return resultSet.getInt(resultSet.getRow());
+            }
+        } catch (SQLException e) {
+            logger.log(Level.SEVERE,e.getMessage(),e);
+        }
+        return 0;
     }
 }

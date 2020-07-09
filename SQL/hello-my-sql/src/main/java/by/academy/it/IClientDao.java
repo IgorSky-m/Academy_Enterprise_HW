@@ -17,4 +17,6 @@ public interface IClientDao {
 
     boolean delete(int id);
 
+    public int getLastId();
+
 }
