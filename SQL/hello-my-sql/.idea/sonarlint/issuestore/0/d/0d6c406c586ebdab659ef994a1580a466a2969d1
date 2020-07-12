@@ -1,5 +1,7 @@
 
 \
-java:S1118":Add a private constructor to hide the implicit public one.(Ù¦‹Çıÿÿÿÿ8ëÛù².
-O
-java:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ8ôáğù².
+java:S1118
+":Add a private constructor to hide the implicit public one.(Ù¦‹Çıÿÿÿÿ8ëÛù².
+F
+java:S1068"*Remove this unused "LOGGER" private field.(¸“ÅQ8î“ëñ³.
+]	java:S125"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8î“ëñ³.

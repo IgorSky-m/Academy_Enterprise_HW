@@ -1,24 +1,28 @@
 package by.academy.it;
 
+import by.academy.it.interfaces.IClientDto;
+
 import java.io.Serializable;
 import java.sql.Date;
+import java.util.Objects;
 
-public class ClientDto implements Serializable {
+//ЗАДАТЬ ВОПРОС ПРО ТО, КАК ЛУЧШЕ СДЕЛАТЬ ЭТОТ КЛАСС (FINAL или имплементировать интерфейс)
+public class ClientDto implements Serializable, IClientDto {
 
-    private int id;
+    private Integer id;
     private String name;
     private String secondName;
     private String email;
     private Date dateOfBirth;
-    private char gender;
+    private Character gender;
 
 
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -54,11 +58,42 @@ public class ClientDto implements Serializable {
         this.dateOfBirth = dateOfBirth;
     }
 
-    public char getGender() {
+    public Character getGender() {
         return gender;
     }
 
-    public void setGender(char gender) {
+    public void setGender(Character gender) {
         this.gender = gender;
+    }
+
+
+    @Override
+    public String toString() {
+        return "ClientDto{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", secondName='" + secondName + '\'' +
+                ", email='" + email + '\'' +
+                ", dateOfBirth=" + dateOfBirth +
+                ", gender=" + gender +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ClientDto clientDto = (ClientDto) o;
+        return id.equals(clientDto.id) &&
+                Objects.equals(name, clientDto.name) &&
+                Objects.equals(secondName, clientDto.secondName) &&
+                Objects.equals(email, clientDto.email) &&
+                Objects.equals(dateOfBirth, clientDto.dateOfBirth) &&
+                Objects.equals(gender, clientDto.gender);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, secondName, email, dateOfBirth, gender);
     }
 }

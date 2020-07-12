@@ -16,4 +16,18 @@
             PRIMARY KEY (id));
         </sql>
     </changeSet>
+    <changeSet  author="scarydisco@gmail.com"  id="2.0">
+        <sql>
+            CREATE TABLE students (
+            id INT NOT NULL,
+            name NVARCHAR(45) NULL,
+            surname NVARCHAR(45) NULL,
+            age INT NULL,
+            gender nvarchar(1) NULL,
+            course INT NULL,
+            specialization NVARCHAR(255),
+            PRIMARY KEY (id));
+        </sql>
+    </changeSet>
+
 </databaseChangeLog>
