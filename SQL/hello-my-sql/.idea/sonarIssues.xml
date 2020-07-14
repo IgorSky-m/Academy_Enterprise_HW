@@ -248,6 +248,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/by/academy/it/mysql/ClientDaoImplTestDBUnit.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/by/academy/it/ClientDaoImpl.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/resources/changelog-master-test.xml">
           <value>
             <set />
@@ -264,6 +274,106 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/target/surefire-reports/by.academy.it.mysql.ClientDaoImplTest.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sql-book-example/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sql-book-example/src/main/java/by/academy/ExpensesDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sql-book-example/src/main/java/by/academy/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sql-book-example/src/main/java/by/academy/ReceiversDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sql-book-example/src/main/java/by/academy/dao/ExpensesDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sql-book-example/src/main/java/by/academy/dao/ReceiversDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sql-book-example/src/main/java/by/academy/dto/ExpensesDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sql-book-example/src/main/java/by/academy/dto/ReceiversDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sql-book-example/src/main/java/by/academy/exceptions/NullDtoParameterException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sql-book-example/src/main/java/by/academy/exceptions/NullParameterException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sql-book-example/src/main/java/by/academy/factories/DaoFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sql-book-example/src/main/java/by/academy/interfaces/IDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sql-book-example/src/main/java/by/academy/interfaces/IExpensesDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sql-book-example/src/main/java/by/academy/interfaces/IReceiversDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sql-book-example/src/main/java/by/academy/sql/MySQLDataSource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sql-book-example/src/main/java/by/academy/utills/Validator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sql-book-example/src/main/resources/changelog-master.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sql-book-example/src/test/java/by/academy/dao/ExpensesDaoTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sql-book-example/src/test/resources/by/academy/dao/ExpensesDao.xml">
           <value>
             <set />
           </value>

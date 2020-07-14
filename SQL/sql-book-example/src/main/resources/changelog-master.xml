@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet author="igar.skachko@gmail.com" id="1.0">
+        <sql>
+            CREATE TABLE expenses(
+            id INT NOT NULL,
+            paydate DATE NOT NULL,
+            receiver INT NOT NULL,
+            value DECIMAL(10,3) NOT NULL,
+            PRIMARY KEY (id)
+            );
+        </sql>
+        <sql>
+            CREATE TABLE receivers(
+                id INT NOT NULL,
+                name nvarchar(255),
+                PRIMARY KEY(id)
+            );
+        </sql>
+
+    </changeSet>
+
+
+
+</databaseChangeLog>

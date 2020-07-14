@@ -1,0 +1,5 @@
+<dataset>
+    <expenses id="1" paydate="2020-07-10" receiver="5" value="120.525" />
+    <expenses id="2" paydate="2020-06-10" receiver="1" value="2223" />
+    <expenses id="3" paydate="2020-07-11" receiver="5" value="14.543" />
+</dataset>

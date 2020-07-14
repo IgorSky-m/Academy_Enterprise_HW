@@ -25,3 +25,9 @@ f
 6src/main/java/by/academy/it/interfaces/IClientDao.java,e\c\ec7e66633185d37f443d3421768dceb2e1f3541e
 h
 8src/test/java/by/academy/it/mysql/ClientDaoImplTest.java,8\9\89aee1fb0d7159abeab6ddce0e14ed6bcc770e3b
+f
+6src/main/java/by/academy/it/interfaces/IClientDto.java,1\6\16411e4c078800dd9283094757ab3e3241952301
+`
+0src/main/java/by/academy/it/utill/Validator.java,b\d\bd7bf0bdd5349d12035fac454fb219273574795b
+n
+>src/test/java/by/academy/it/mysql/ClientDaoImplTestDBUnit.java,7\7\77e647283e16f6d9554ff44b230ab8822eda43d1
