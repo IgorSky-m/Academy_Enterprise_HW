@@ -9,5 +9,5 @@ public interface IDao<E> {
     List<E> readAll() throws SQLException;
     boolean update (E obj) throws SQLException;
     boolean delete (E obj) throws SQLException;
-    List<E> readSqlParam(String sqlRequest) throws SQLException;
+    boolean delete (Integer id) throws SQLException;
 }

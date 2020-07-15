@@ -87,18 +87,38 @@ public class ExpensesDao implements IDao<ExpensesDto> {
 
     @Override
     public boolean update(ExpensesDto obj) throws SQLException {
-        return false;
+        try (PreparedStatement preparedStatement = connection
+                .prepareStatement("UPDATE "+ tableMap.get(isTestInstance)+
+                        " SET paydate = ?, receiver = ?, value = ? WHERE id = ?")) {
+            Integer id = obj.getId();
+            if (isIdNotExist(id)) throw new InvalidParameterException("id " + id+" doesn't exist");
+            if (obj.getDate() == null || obj.getReceiver() == null || obj.getValue() == null)
+                throw new NullDtoParameterException();
+            preparedStatement.setInt(4, id);
+            preparedStatement.setDate(1, obj.getDate());
+            preparedStatement.setInt(2, obj.getReceiver());
+            preparedStatement.setBigDecimal(3, obj.getValue());
+            boolean res = preparedStatement.execute();
+            return !res;
+        }
     }
 
     @Override
     public boolean delete(ExpensesDto obj) throws SQLException {
-        return false;
+        return delete(obj.getId());
     }
 
     @Override
-    public List<ExpensesDto> readSqlParam(String sqlRequest) throws SQLException {
-        return null;
+    public boolean delete (Integer id) throws SQLException {
+        if (isIdNotExist(id)) throw new InvalidParameterException("id " + id+" doesn't exist");
+        try (PreparedStatement preparedStatement = connection.prepareStatement("DELETE FROM "+tableMap.get(isTestInstance)+
+                " WHERE id = ?")) {
+            preparedStatement.setInt(1,id);
+            boolean result = preparedStatement.execute();
+            return !result;
+        }
     }
+    
 
     private boolean isIdNotExist(Integer id) throws SQLException {
         if (id == null) throw new InvalidParameterException("ID can't be null");

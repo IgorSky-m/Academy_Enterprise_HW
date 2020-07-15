@@ -1,0 +1,9 @@
+
+T
+java:S1068"2Remove this unused "isTestInstance" private field.(ãúßÇúÿÿÿÿ8ç¢àö´.
+P
+java:S1068".Remove this unused "connection" private field.(·ãÛöûÿÿÿÿ8ç¢àö´.
+H
+java:S1168%"+Return an empty collection instead of null.(¥¹ï8¢ê«ù´.
+H
+java:S11684"+Return an empty collection instead of null.(¥¹ï8¢ê«ù´.

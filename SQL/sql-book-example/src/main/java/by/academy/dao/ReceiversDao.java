@@ -48,7 +48,8 @@ public class ReceiversDao implements IDao<ReceiversDao> {
     }
 
     @Override
-    public List<ReceiversDao> readSqlParam(String sqlRequest) throws SQLException {
-        return null;
+    public boolean delete(Integer id) throws SQLException {
+        return false;
     }
+
 }
