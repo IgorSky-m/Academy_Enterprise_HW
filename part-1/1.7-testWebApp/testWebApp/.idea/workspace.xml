@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d2042d4-6a2e-4d72-9b32-5ba4e2ce73f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../hello-my-sql/src/main/resources/NameFemale.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../hello-my-sql/src/main/resources/NameMale.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../hello-my-sql/src/main/resources/Surname.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../hello-my-sql/src/main/resources/specializations.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../1.7-testWebApp-servlet-jsp/testWebApp/src/main/java/servlets/login/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../1.7-testWebApp-servlet-jsp/testWebApp/src/main/java/servlets/login/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SQL/sql-book-example/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SQL/sql-book-example/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SQL/sql-book-example/.idea/sonarlint/issuestore/0/1/0118d7e6d1720638c7464c34704f9db053db1292" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SQL/sql-book-example/.idea/sonarlint/issuestore/0/1/0118d7e6d1720638c7464c34704f9db053db1292" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SQL/sql-book-example/.idea/sonarlint/issuestore/7/a/7a6c8e7c5bcac18df221a5f201c99c91c8ada67d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SQL/sql-book-example/.idea/sonarlint/issuestore/7/a/7a6c8e7c5bcac18df221a5f201c99c91c8ada67d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SQL/sql-book-example/.idea/sonarlint/issuestore/9/b/9bf7033de05990581a9fb00580563302ce0aa6d0" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SQL/sql-book-example/.idea/sonarlint/issuestore/9/b/9bf7033de05990581a9fb00580563302ce0aa6d0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SQL/sql-book-example/.idea/sonarlint/issuestore/a/b/abfdbb8943b0f334b46819f20cab8de3124df3a8" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SQL/sql-book-example/.idea/sonarlint/issuestore/a/b/abfdbb8943b0f334b46819f20cab8de3124df3a8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SQL/sql-book-example/.idea/sonarlint/issuestore/f/a/fa8e0ffba40e8e98ae90c15d6c8a72427b8a1fe6" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SQL/sql-book-example/.idea/sonarlint/issuestore/f/a/fa8e0ffba40e8e98ae90c15d6c8a72427b8a1fe6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SQL/sql-book-example/src/main/java/by/academy/dao/ExpensesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SQL/sql-book-example/src/main/java/by/academy/dao/ExpensesDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SQL/sql-book-example/src/main/java/by/academy/dao/ReceiversDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SQL/sql-book-example/src/main/java/by/academy/dao/ReceiversDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

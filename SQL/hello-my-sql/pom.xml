@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>by.academy.it</groupId>
+    <groupId>by.it.academy</groupId>
     <artifactId>hello-my-sql</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
@@ -55,6 +55,7 @@
                         </goals>
                         <phase>process-resources</phase>
                         <configuration>
+                            <propertyFile>src/main/resources/liquibase.properties</propertyFile>
                             <changeLogFile>src/main/resources/changelog-master.xml</changeLogFile>
                             <driver>com.mysql.jdbc.Driver</driver>
                             <url>jdbc:mysql://localhost:3306/client?createDatabaseIfNotExist=true&amp;serverTimeZone=UTC&amp;useSSL=false</url>

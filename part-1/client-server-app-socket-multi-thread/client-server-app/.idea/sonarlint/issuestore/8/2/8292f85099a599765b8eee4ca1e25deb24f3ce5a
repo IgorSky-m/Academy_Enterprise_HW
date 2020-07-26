@@ -1,17 +1,15 @@
 
 Z	java:S106C"9Replace this use of System.out or System.err by a logger.(‚¶à´üÿÿÿÿ8ø¹§¡±.
-D
-java:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ8‚‘›¦±.
-E
-java:S1148T"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8„ç¶ž±.
-Z	java:S106N"9Replace this use of System.out or System.err by a logger.(ØÖ†ãüÿÿÿÿ8ýº™¡±.
-L
-java:S1068("*Remove this unused "logger" private field.(ø¢Á®øÿÿÿÿ8öÐÈ¦±.
-Z	java:S106J"9Replace this use of System.out or System.err by a logger.(ÍÊÈ£üÿÿÿÿ8õâž¡±.
-r
-java:S1450'"URemove the "reader" field and declare it as a local variable in the relevant methods.(ú§Âµ8ò…¿¤±.
-T	java:S106<"9Replace this use of System.out or System.err by a logger.(ÁÂ8öÐÈ¦±.
-€
-java:S1450"^Remove the "executorService" field and declare it as a local variable in the relevant methods.(’ þüÿÿÿÿ8±×„¦±.
 w
 java:S1450&"URemove the "writer" field and declare it as a local variable in the relevant methods.(†¦ÈŒÿÿÿÿÿ8ù’À¤±.
+Z	java:S106J"9Replace this use of System.out or System.err by a logger.(ÍÊÈ£üÿÿÿÿ8õâž¡±.
+D
+java:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ8‚‘›¦±.
+r
+java:S1450'"URemove the "reader" field and declare it as a local variable in the relevant methods.(ú§Âµ8ò…¿¤±.
+Z	java:S106N"9Replace this use of System.out or System.err by a logger.(ØÖ†ãüÿÿÿÿ8ýº™¡±.
+€
+java:S1450"^Remove the "executorService" field and declare it as a local variable in the relevant methods.(’ þüÿÿÿÿ8±×„¦±.
+T	java:S106<"9Replace this use of System.out or System.err by a logger.(ÁÂ8öÐÈ¦±.
+L
+java:S1068("*Remove this unused "logger" private field.(ø¢Á®øÿÿÿÿ8öÐÈ¦±.

@@ -36,11 +36,7 @@ public class ExpensesDao implements IDao<ExpensesDto> {
         this.connection = isTestInstance ? MySQLDataSource.getTestConnection() : MySQLDataSource.getConnection();
 
     }
-//
-//    id INT NOT NULL,
-//    paydate DATE NOT NULL,
-//    receiver INT NOT NULL,
-//    value DECIMAL(10,3) NOT NULL,
+
 
     @Override
     public int create(ExpensesDto obj) throws SQLException {
@@ -118,7 +114,7 @@ public class ExpensesDao implements IDao<ExpensesDto> {
             return !result;
         }
     }
-    
+
 
     private boolean isIdNotExist(Integer id) throws SQLException {
         if (id == null) throw new InvalidParameterException("ID can't be null");

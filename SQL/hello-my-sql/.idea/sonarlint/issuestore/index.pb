@@ -31,3 +31,5 @@ f
 0src/main/java/by/academy/it/utill/Validator.java,b\d\bd7bf0bdd5349d12035fac454fb219273574795b
 n
 >src/test/java/by/academy/it/mysql/ClientDaoImplTestDBUnit.java,7\7\77e647283e16f6d9554ff44b230ab8822eda43d1
+j
+:src/main/java/by/academy/it/student/StudentDaoFactory.java,6\4\64a94291316d0193387760ed1962755c4d5bdf23

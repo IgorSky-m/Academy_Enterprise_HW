@@ -196,4 +196,5 @@ public class ClientDaoImpl implements IClientDao {
         return (isTestInstance ? CLIENT_TEST_CLIENTS : WORK_CLIENTS_TABLE);
     }
 
+
 }

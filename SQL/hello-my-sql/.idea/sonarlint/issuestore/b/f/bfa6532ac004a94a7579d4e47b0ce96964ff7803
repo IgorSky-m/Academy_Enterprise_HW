@@ -1,19 +1,19 @@
 
-m
-java:S3457("KFormat specifiers or lambda should be used instead of string concatenation.(”©ˆ½úÿÿÿÿ8å¦ğ³.
-m
-java:S3457 "KFormat specifiers or lambda should be used instead of string concatenation.(À„úûÿÿÿÿ8å¦ğ³.
+Y
+java:S1128"7Remove this unused import 'java.sql.PreparedStatement'.(òÄ™ƒÿÿÿÿÿ8ø¸Ò»´.
 O
 java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8ƒ„±ò³.
+m
+java:S3457 "KFormat specifiers or lambda should be used instead of string concatenation.(À„úûÿÿÿÿ8å¦ğ³.
+m
+java:S3457("KFormat specifiers or lambda should be used instead of string concatenation.(”©ˆ½úÿÿÿÿ8å¦ğ³.
+K
+java:S1128"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw8ø¸Ò»´.
 m
 java:S3457."KFormat specifiers or lambda should be used instead of string concatenation.(Ì°ş¹şÿÿÿÿ8å¦ğ³.
 m
 java:S34571"KFormat specifiers or lambda should be used instead of string concatenation.(¦±Ğõşÿÿÿÿ8¡‡¸ğ³.
-Y
-java:S1128"7Remove this unused import 'java.sql.PreparedStatement'.(òÄ™ƒÿÿÿÿÿ8ø¸Ò»´.
-]
-java:S1128"@Remove this unused import 'by.academy.it.mysql.MySqlDataSource'.(«ùÓÇ8ø¸Ò»´.
 f
 java:S1128	"DRemove this unused import 'java.security.InvalidParameterException'.(Öª°—şÿÿÿÿ8ø¸Ò»´.
-K
-java:S1128"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw8ø¸Ò»´.
+]
+java:S1128"@Remove this unused import 'by.academy.it.mysql.MySqlDataSource'.(«ùÓÇ8ø¸Ò»´.

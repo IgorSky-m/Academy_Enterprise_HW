@@ -13,6 +13,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../../SQL/hello-my-sql/src/main/java/by/academy/it/Main2.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../SQL/hello-my-sql/src/test/java/by/academy/it/mysql/ClientDaoImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../1.7-testWebApp/testWebApp/pom.xml">
           <value>
             <set />
@@ -109,6 +119,81 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../home-work-1.7-webApp/testWebApp/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../hello-tomcat/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../hello-tomcat/src/main/java/by/it/academy/CountServlet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../hello-tomcat/src/main/java/by/it/academy/ForwardServlet1.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../hello-tomcat/src/main/java/by/it/academy/ForwardServlet2.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../hello-tomcat/src/main/java/by/it/academy/LoginServletFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../hello-tomcat/src/main/java/by/it/academy/RedirectServlet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../hello-tomcat/src/main/java/by/it/academy/ServletWork.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../hello-tomcat/src/main/java/by/it/academy/TestServlet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../hello-tomcat/src/main/java/by/it/academy/TestServlet2.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../hello-tomcat/src/main/java/by/it/academy/TestServletInclude.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../hello-tomcat/src/main/java/by/it/academy/TestServletInclude2.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../hello-tomcat/src/main/java/by/it/academy/utills/psvm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../hello-tomcat/src/main/resources/by/it/academy/count.bin">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../hello-tomcat/src/main/resources/by/it/academy/utills/count.bin">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../hello-tomcat/src/main/resources/count.bin">
           <value>
             <set />
           </value>

@@ -28,6 +28,91 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../Design-patterns/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Design-patterns/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Design-patterns/src/main/java/org/example/Fasade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Design-patterns/src/main/java/org/example/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Design-patterns/src/main/java/org/example/Main2.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Design-patterns/src/main/java/org/example/Secure.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Design-patterns/src/main/java/org/example/blockchain/Block.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Design-patterns/src/main/java/org/example/fasade/AccountService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Design-patterns/src/main/java/org/example/fasade/CustomerService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Design-patterns/src/main/java/org/example/fasade/CustomerServise.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Design-patterns/src/main/java/org/example/fasade/Fasade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Design-patterns/src/main/java/org/example/fasade/LoanService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Design-patterns/src/main/java/org/example/fasade/WashingMachine.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Design-patterns/src/main/java/org/example/fasade/withoutsavestatement/AccountService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Design-patterns/src/main/java/org/example/fasade/withoutsavestatement/BankServiceFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Design-patterns/src/main/java/org/example/fasade/withoutsavestatement/CustomerService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Design-patterns/src/main/java/org/example/fasade/withoutsavestatement/LoanService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
           <value>
             <set />
@@ -233,6 +318,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/liquibase.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/names.txt">
           <value>
             <set />
@@ -374,6 +464,326 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../sql-book-example/src/test/resources/by/academy/dao/ExpensesDao.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../data-model/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../data-model/src/main/java/by/shop/model/Block.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../data-model/src/main/java/by/shop/model/GenesisBlock.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../data-model/src/main/java/by/shop/model/IBlock.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../data-model/src/main/java/by/shop/model/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../data-model/src/main/java/by/shop/model/Product.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../data-model/src/main/java/by/shop/model/Section.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../data-model/src/main/java/by/shop/model/Stock.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../data-model/src/main/java/by/shop/model/section.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../data-model/src/main/resources/hibernate.cfg.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../data-model/src/test/java/by/shop/model/BlockTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../data-model/src/test/java/by/shop/model/ProductTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../data-model/src/test/resources/hibernate.cfg.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/1.7-testWebApp-servlet-jsp/testWebApp/src/main/java/servlets/login/LoginServlet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/CountServlet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/ForwardServlet1.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/ForwardServlet2.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/HelloWorldServlet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/LoginServletFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/RedirectServlet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/ServletWork.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/TestServlet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/TestServlet2.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/TestServletInclude.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/TestServletInclude2.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/classes/dao/DaoFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/classes/dao/LoginDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/classes/dto/UserDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/exceptions/ApplicationException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/exceptions/DaoValidationException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/exceptions/LoginDaoException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/exceptions/ValidatorException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/exceptions/dao/DaoException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/exceptions/dao/LoginDaoException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/exceptions/parameter/NullParameterException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/exceptions/validator/ValidatorException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/interfaces/IDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/interfaces/IUser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/interfaces/IUserLoginFormDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/utills/Validator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/java/by/it/academy/utills/psvm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/resources/by/it/academy/count.bin">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/resources/by/it/academy/utills/count.bin">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/resources/changelog-master.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/resources/count.bin">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/webapp/css/login-page-style.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/webapp/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/main/webapp/index.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/test/java/by/it/academy/classes/dao/LoginDaoTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/test/resources/by/it/academy/classes/dao/LoginDao.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../part-1/hello-tomcat/src/test/resources/changelog-master-test.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../upload-files/homework_2/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../upload-files/homework_2/src/main/java/by/academy/it/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../upload-files/homework_2/src/main/java/by/academy/it/Receiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../upload-files/homework_2/src/main/java/by/academy/it/mysql/MyDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../upload-files/homework_2/src/main/java/by/academy/it/mysql/MySQLDataBase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../upload-files/homework_2/src/main/resources/ExpensesMain.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../upload-files/homework_2/src/main/resources/ReceiversMain">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../upload-files/homework_2/src/main/resources/ReceiversWithNullNum">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../upload-files/homework_2/src/main/resources/changelog-master.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../upload-files/homework_2/src/test/java/by/academy/it/mysql/MyDaoTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../upload-files/homework_2/src/test/resources/changelog-master-test.xml">
           <value>
             <set />
           </value>
